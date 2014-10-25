@@ -1,7 +1,7 @@
 ## cachematrix function allows the value of the inverse of a matrix to be computed and cached for later retrieval. 
 ## This avoids the inverse having to be calculated repeatedly which is usually costly and can be avoided by caching 
 ## the calculated value and retreiving it from cache later on.
-## It contains two functions with their descriptions below: makeCacheMatrix and cacheSOlve.
+## It contains two functions with their descriptions below: makeCacheMatrix and cacheSolve.
 
 ## makeCacheMatrix function creates a special "matrix" which is a list containing a function to:
 ## 1. set value of the input matrix
